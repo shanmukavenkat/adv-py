@@ -1,7 +1,6 @@
 t,h,k=10,100,1000
 l=list(input())
-req=l[-1]
-l.remove(req)
+req=l.pop(-1)
 s=""
 for i in range(len(l)):
   s=s+"".join(l[i])
